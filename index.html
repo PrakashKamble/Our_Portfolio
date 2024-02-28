@@ -1,11 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+
+    <title>PixelPulse</title>
 </head>
+
 <body>
-    
+
+    <!-- navbar start -->
+    <header class="header">
+        <img src="images/pixelpulse.png" alt="" class="logo" />
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="#" class="navbar-link about-link">About</a></li>
+                <li><a href="#" class="navbar-link service-link">Service</a></li>
+                <li><a href="#" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <hr></hr> -->
+
+    <!-- navbar ends -->
+    <!-- ========================= -->
+
+    <!-- main section start -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="sectio-hero-data">
+                    <p class="hero-top-data">This is</p>
+                    <h1 class="hero-heading">PixelPulse Inovations</h1>
+                    <p class="hero-para">We are passionate about crafting exceptional web solutions that empower
+                        businesses to thrive in the digital world. As a dynamic startup specializing in web development,
+                        website design, and maintenance services, we are dedicated to delivering cutting-edge solutions
+                        tailored to our clients' unique needs.</p>
+                </div>
+                <div class="section-hero-image">
+                    <img src="images/Free Service Technology Illustration.png" alt="" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section ends -->
+
+    <!-- =========================================================== -->
+    <!-- porfolio section -->
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum sint veniam facere odit voluptates
+                minus, obcaecati facilis culpa, aliquam odio distinctio fugiat iure tenetur.
+            </p>
+        </div>
+
+        <div class="p-btns" style="margin-bottom: 50px;">
+            <div class="btn p-btn" data-btn-num="1">Works</div>
+            <div class="btn p-btn" data-btn-num="2">Design</div>
+            <div class="btn p-btn" data-btn-num="3">Youtube</div>
+        </div>
+
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/1.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--2">
+                <img src="images/2.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 2</a>
+                </div>
+            </div>
+
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/3.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 3</a>
+                </div>
+            </div>
+
+
+            <div class="img-overlay p-btn--4 p-image-not-active">
+                <img src="images/4.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 4</a>
+                </div>
+            </div>
+
+
+            <div class="img-overlay p-btn--5">
+                <img src="images/1.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 5</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--6">
+                <img src="images/1.jpg" alt="">
+                <div class="overlay">
+                    <a href="#" target="mmm" class="common-heading">Project 6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our work counter section start -->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-number">200+</h2>
+                <p>Project Completed</p>
+            </div>
+
+
+            <div>
+                <h2 class="counter-number">30+</h2>
+                <p>Happy Clients</p>
+            </div>
+
+            <div>
+                <h2 class="counter-number">10+</h2>
+                <p>Developers</p>
+            </div>
+
+            <div>
+                <h2 class="counter-number">150+</h2>
+                <p>Project Completed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- our service section starts -->
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate eveniet accusamus obcaecati sequi
+
+            </p>
+        </div><br>
+
+        <!-- service offers card -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>It is not because things are difficult that we do not dare; It is because we do not dare that they
+                    are difficult</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="briefcase-sharp" class="service-icon"></ion-icon>
+                <h3>Ecommerse websites</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam exercitationem accusantium</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>ReactJS Applications</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint laborummodi.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+                <h3>Apps development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perfernt distinctio nam
+                    voluptates.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="laptop-sharp" class="service-icon"></ion-icon>
+                <h3>Graphics Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing commodi? Ab placeat ullam adipisci.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="bug-sharp" class="service-icon"></ion-icon>
+                <h3>Bug tracking</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit laborum, repellat reiciendis in
+                    eos!</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- footer strats -->
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>We have tested number of regincy fix and clean utilities and present out top 3 site for your</p>
+                
+                    <!-- convenience.Hope you like it -->
+            </div>
+            <!-- end -->
+
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">Home</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- end -->
+
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">Web development</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">React Applications</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-sharp"></ion-icon></span>
+                        <a href="#">Andrios apps</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p><span><ion-icon name="location-outline"></ion-icon></span>Pune, India</p>
+                    </div>
+
+                    <div>
+                        <p><span><ion-icon name="call-outline"></ion-icon></span><a href="tel:+91">+91 8766421550</a></p>
+                    </div>
+
+                    <div>
+                        <p><span><ion-icon name="mail-outline"></ion-icon></span><a href="mailto:">pixelpulse@gmail.com</a></p>
+                    </div>
+
+                </address>
+                </ul>
+            </div>
+            <!-- end -->
+
+            
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="#">
+                    <ion-icon name="logo-instagram" class="icons"></ion-icon>
+                </a>
+
+                <a href="#">
+                    <ion-icon name="disc-outline" class="icons"></ion-icon>
+                </a>
+
+                <a href="#">
+                    <ion-icon name="logo-youtube" class="icons"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p>Copyright @2024 All rights reserved | This template is made with ❤️ by Prakash, Prajwal & Mangesh</p>
+            </div>
+        </div>
+
+
+    </footer>
 </body>
+
 </html>
